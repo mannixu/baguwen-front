@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "icon-card": "/components/icon-card/icon-card",
+    "tabs": "/components/tabs/tabs",
+    "course-list": "/components/course-list/course-list",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "no-login": "/components/no-login/no-login"
+  }
+}

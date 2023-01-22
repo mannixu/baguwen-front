@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "瓜哇题库",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "single_answer": "/components/single_answer/single_answer",
+    "fill_answers": "/components/fill_answers/fill_answers",
+    "answer_sheet": "/components/answer_sheet/answer_sheet"
+  }
+}

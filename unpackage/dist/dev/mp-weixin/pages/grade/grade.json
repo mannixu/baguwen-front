@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#0099FF",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "chapter-list": "/components/chapterList/chapterList"
+  }
+}

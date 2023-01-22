@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['$emit',['click']]]]]}}" class="flex align-center p-2 border-bottom py-3" bindtap="__e"><view class="font-lg text-muted flex-shrink " style="width:80rpx;text-align:center;">{{''+$root.f0+''}}</view><view class="flex flex-column ml-3"><text class="font-md">{{title}}</text><slot></slot></view></view>

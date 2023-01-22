@@ -1,0 +1,8 @@
+.receive.data-v-c00e9c60 {
+  color: #fff;
+}
+.receive .bg-hover-warning.data-v-c00e9c60,
+.receive .bg-warning.data-v-c00e9c60 {
+  background-color: #ccc !important;
+}
+

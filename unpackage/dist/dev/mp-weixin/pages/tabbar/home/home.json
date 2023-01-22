@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#5ccc84",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "set-list": "/components/set-list/set-list",
+    "tabs": "/components/tabs/tabs"
+  }
+}

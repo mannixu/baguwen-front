@@ -1,0 +1,14 @@
+.timer-box.data-v-c97a15e8 {
+  background-color: #fff;
+  color: red;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 20rpx 0;
+  font-size: 35rpx;
+  height: 50rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+

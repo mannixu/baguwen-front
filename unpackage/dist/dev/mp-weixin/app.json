@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/learn/learn",
+    "pages/tabbar/home/home",
+    "pages/login/login",
+    "pages/bind-phone/bind-phone",
+    "pages/forget-password/forget-password",
+    "pages/setting/setting",
+    "pages/my-coupon/my-coupon",
+    "pages/update-password/update-password",
+    "pages/user-info/user-info",
+    "pages/order-list/order-list",
+    "pages/search/search",
+    "pages/search-result/search-result",
+    "pages/course/course",
+    "pages/column/column",
+    "pages/test-list/test-list",
+    "pages/test-detail/test-detail",
+    "pages/my-test/my-test",
+    "pages/base/base",
+    "pages/grade/grade",
+    "pages/practice/practice",
+    "pages/subjects/subjects",
+    "pages/hot/hot"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "pages/search-blog/search-blog",
+        "pages/blog-detail/blog-detail",
+        "pages/login-page/login-page"
+      ],
+      "name": "sub-1"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uniApp在线教育",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#BBBAC7",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "/static/tabbar/index1.png",
+        "selectedIconPath": "/static/tabbar/index1_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/learn/learn",
+        "iconPath": "/static/tabbar/learn.png",
+        "selectedIconPath": "/static/tabbar/learn_selected.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/practice/practice",
+        "text": "练习",
+        "iconPath": "static/tabbar/practice-0.jpg",
+        "selectedIconPath": "static/tabbar/practice-1.jpg"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热榜",
+        "iconPath": "static/tabbar/hot.png",
+        "selectedIconPath": "static/tabbar/hot-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

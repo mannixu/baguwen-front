@@ -1,0 +1,10 @@
+.current-tab text.data-v-21da2544 {
+  color: #00cf8a;
+}
+.current-tab .tab-line.data-v-21da2544 {
+  width: 50rpx;
+  height: 10rpx;
+  background-color: #00cf8a;
+  border-radius: 8rpx;
+}
+

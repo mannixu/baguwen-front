@@ -1,0 +1,1 @@
+<view class="{{['flex','','align-center','addweight','','',isy?'flex-column':'']}}"><text class="{{['','myiconfont','text-dark','addtextclass','','font-weight-bold',setclass]}}"></text><text class="{{['','',isy?'font-sm mt--1 ml-0':'ml-2']}}" style="color:#56636c;">{{text}}</text></view>

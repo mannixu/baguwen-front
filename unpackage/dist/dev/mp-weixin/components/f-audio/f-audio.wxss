@@ -1,0 +1,11 @@
+.icons text.data-v-a18b4d38:first-child,
+.icons text.data-v-a18b4d38:last-child {
+  font-size: 30px;
+  color: #ccc;
+}
+.icons text.data-v-a18b4d38:nth-child(2) {
+  font-size: 50px;
+  margin: 0 50rpx;
+  color: #5ccc84;
+}
+

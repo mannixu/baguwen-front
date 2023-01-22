@@ -1,0 +1,63 @@
+/* scroll-row-item{ display: inline-block!important; }
+	block  块级元素特点：
+	1、每个块级元素都从新的一行开始，并且其后的元素也另起一行。（真霸道，一个块级元素独占一行）
+	2、元素的高度、宽度、行高以及顶和底边距都可设置。
+	3、元素宽度在不设置的情况下，是它本身父容器的100%（和父元素的宽度一致），除非设定一个宽度。
+    inline  内联元素特点：
+    1、和其他元素都在一行上；
+    2、元素的高度、宽度及顶部和底部边距不可设置；
+    3、元素的宽度就是它包含的文字或图片的宽度，不可改变。
+	inline-block
+	内联块状元素（inline-block）就是同时具备内联元素、块状元素的特点。
+	inline-block 元素特点：
+	1、和其他元素都在一行上；
+	2、元素的高度、宽度、行高以及顶和底边距都可设置。
+	
+	.course {
+		view:first-child { course下的第一个view
+		
+		flex-shrink"
+		在给他子元素不加flex-shrink且父盒子中不加flex-wrap=“wrap”的情况下，超出父盒子的宽度，父盒子会自动压缩子盒子的宽度。
+		当给子盒子加上flex-shrink: 0，子盒子不会被压缩宽度；
+ */
+.course view:first-child view.data-v-5b207eb4 {
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.course-two.data-v-5b207eb4 {
+  width: 340rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+.course-two view.data-v-5b207eb4:first-child,
+.course-two view image.data-v-5b207eb4 {
+  width: 340rpx;
+  height: 180rpx;
+  margin-right: 20rpx;
+}
+.course-two view .last-child text.data-v-5b207eb4 {
+  margin-top: 10rpx;
+}
+.course-one.data-v-5b207eb4 {
+  display: flex !important;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+.course-one .last-child.data-v-5b207eb4 {
+  width: 340rpx;
+  height: 180rpx;
+}
+.course-one view.data-v-5b207eb4:first-child,
+.course-one view image.data-v-5b207eb4 {
+  width: 340rpx;
+  height: 180rpx;
+  flex-shrink: 1;
+  margin-right: 20rpx;
+}
+.course-one view .last-child.data-v-5b207eb4 {
+  width: 340rpx;
+  height: 180rpx;
+}
+

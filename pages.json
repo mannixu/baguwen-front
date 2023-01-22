@@ -1,0 +1,288 @@
+{
+	"pages": [
+		{
+		"path": "pages/tabbar/index/index",
+		"style": {
+			"enablePullDownRefresh": true,
+			
+			"app-plus": {
+				// 隐藏导航栏
+				"titleNView": false
+				
+				
+				
+				
+			},
+			// 下拉刷新
+			"enablePullDownRefresh": true
+		}
+	}, {
+			"path": "pages/tabbar/learn/learn"
+		}, {
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"enablePullDownRefresh": false, // 刷新
+				"navigationBarBackgroundColor": "#5ccc84", //导航栏背景色
+				"navigationBarTextStyle": "white", // 文字颜色
+				
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/bind-phone/bind-phone",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/forget-password/forget-password",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+				"path": "pages/setting/setting",
+				"style": {
+					"navigationBarTitleText": "我的设置",
+					"backgroundColor": "#fff",
+					"enablePullDownRefresh": false
+				}
+		
+			}, {
+				"path": "pages/my-coupon/my-coupon",
+				"style": {
+					"navigationBarTitleText": "我的优惠券",
+					"enablePullDownRefresh": true
+				}
+		
+			},
+			{
+				"path": "pages/update-password/update-password",
+				"style": {
+					"navigationBarTitleText": "修改密码",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "pages/user-info/user-info",
+				"style": {
+					"navigationBarTitleText": "编辑资料",
+					"enablePullDownRefresh": false
+				}
+			
+			},
+			{
+				"path": "pages/order-list/order-list",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh": true,
+					"onReachBottomDistance": 100
+				}
+			},
+			{
+				"path": "pages/search/search",
+				"style": {
+					"enablePullDownRefresh": false,
+					"app-plus": {
+						"titleNView": {
+							"searchInput": {
+								"placeholder": "请输入关键词搜索",
+								"autoFocus": true, //自动对焦
+								"align": "left",
+								"backgroundColor": "#f8f8f8",
+								"borderRadius": "50px"
+							},
+							"buttons": [{
+								"text": "搜索",
+								"fontSize": "15px"
+							}]
+						}
+					},
+					// 小程序不兼容配置搜索框
+					"mp-weixin": {
+						"navigationStyle": "custom"
+					}
+				}
+			
+			},
+			{
+				"path": "pages/search-result/search-result",
+				"style": {
+					"enablePullDownRefresh": false,
+					"app-plus": {
+						"titleNView": {
+							"searchInput": {
+								"placeholder": "请输入关键词搜索",
+								"disabled": true,
+								"align": "left",
+								"backgroundColor": "#f8f8f8",
+								"borderRadius": "50px"
+							}
+						}
+			
+					}
+				}
+			},
+			{
+				"path": "pages/course/course",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			
+			},
+			{
+				"path": "pages/column/column",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			
+			},
+			{
+				"path": "pages/test-list/test-list",
+				"style": {
+					"navigationBarTitleText": "考试列表",
+					"enablePullDownRefresh": true
+				}
+			
+			}, {
+				"path": "pages/test-detail/test-detail",
+				"style": {
+					"navigationBarTitleText": "开始考试",
+					"enablePullDownRefresh": false
+				}
+			
+			}, {
+				"path": "pages/my-test/my-test",
+				"style": {
+					"navigationBarTitleText": "我的考试",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "pages/base/base",
+				"style": {
+					"navigationBarTitleText": "瓜哇题库",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "pages/grade/grade",
+				"style": {
+					"navigationBarBackgroundColor": "#0099FF",
+					"navigationBarTextStyle": "white"
+				}
+			},
+			{
+				"path": "pages/practice/practice",
+				"style": {}
+			},
+			{
+				"path": "pages/subjects/subjects",
+				"style": {}
+			},
+			{
+			  "path": "pages/hot/hot",
+			  "style": {
+			    "navigationBarTitleText": "热搜",
+			    "enablePullDownRefresh": false
+			  }
+			}
+			
+			
+	
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uniApp在线教育",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"app-plus": {
+			"background": "#efeff4"
+			
+		}
+	},
+	"tabBar": {
+		"color": "#BBBAC7",
+		"selectedColor": "#2c2c2c",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"iconPath": "/static/tabbar/index1.png",
+				"selectedIconPath": "/static/tabbar/index1_selected.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/tabbar/learn/learn",
+			// 	"iconPath": "/static/tabbar/learn.png",
+			// 	"selectedIconPath": "/static/tabbar/learn_selected.png",
+			// 	"text": "学习"
+			// },
+			{
+				"pagePath": "pages/practice/practice",
+				"text": "练习",
+				"iconPath": "static/tabbar/practice-0.jpg",
+				"selectedIconPath": "static/tabbar/practice-1.jpg"
+			},
+			{
+			  "pagePath": "pages/hot/hot",
+			  "text": "热榜",
+			  "iconPath": "static/tabbar/hot.png",
+			  "selectedIconPath": "static/tabbar/hot-active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [
+	  {
+	    "root": "subpkg",
+	    "name": "sub-1",
+	    "pages": [
+	      {
+	        "path": "pages/search-blog/search-blog",
+	        "style": {
+	          "navigationBarTitleText": "慕课搜索",
+	          "enablePullDownRefresh": false
+	        }
+	      },
+	      {
+	        "path": "pages/blog-detail/blog-detail",
+	        "style": {
+	          "navigationBarTitleText": "",
+	          "enablePullDownRefresh": false
+	        }
+	      },
+			{
+			  "path": "pages/login-page/login-page",
+			  "style": {
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			  }
+			}
+	        
+	             
+	          ]
+	  }
+	]
+}

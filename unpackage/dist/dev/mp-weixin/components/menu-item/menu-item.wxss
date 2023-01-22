@@ -1,0 +1,5 @@
+
+.border-style {
+		padding:0 10rpx;border: 1px solid #d52e2d;color: #d52e2d;border-radius: 8rpx;
+}
+

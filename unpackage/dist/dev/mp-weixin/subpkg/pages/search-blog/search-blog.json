@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "慕课搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search"
+  }
+}

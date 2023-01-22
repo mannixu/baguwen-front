@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "f-audio": "/components/f-audio/f-audio",
+    "skeleton": "/components/skeleton/skeleton",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "mp-html": "/uni_modules/mp-html/components/mp-html/mp-html",
+    "main-button": "/components/main-button/main-button"
+  }
+}
